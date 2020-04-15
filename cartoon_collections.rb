@@ -12,7 +12,7 @@ end
   #
   # Print a numbered list of each element
 def list_dwarves(array)
-array.each do |charachter, position|
+array.each_with_index do |charachter, position|
   p "#{position}. #{charachter}"
 end
 end
